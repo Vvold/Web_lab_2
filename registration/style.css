@@ -1,0 +1,62 @@
+* {
+    font-family: 'Arial', cursive !important;
+}
+
+.form-floating *, .form-floating option {
+    font-weight: 300 !important;
+}
+
+body {
+    background: #FFEBCD;
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.sign-up-card {
+    width: 30rem;
+    border-radius: 1px !important;
+    padding: 25px;
+}
+
+.sign-up-btn {
+    background: transparent !important;
+    border: 1px solid white !important;
+    outline: none !important;
+    transition: .2s;
+}
+
+.sign-up-btn:hover {
+    color: black !important;
+    background: white !important;
+}
+
+@media (max-width: 750px) {
+    .sign-up-card {
+        width: 20rem;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+.btn-block {
+    margin-top: 5%;
+    gap: 15px;
+}
+
+.btn-block .btn {
+    width: 120px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 20px !important;
+    transition: .2s;
+}
+.btn-block .btn:hover {
+    border-color: black !important;
+    background: transparent;
+}

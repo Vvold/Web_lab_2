@@ -1,0 +1,48 @@
+
+* {
+    font-family: 'Arial', cursive !important;
+}
+body {
+    padding-top: 5%;
+    background-color: #FFEBCD;
+}
+
+h1 {
+    font-size: 55px !important;
+    color: black !important;
+    margin-top: 20px !important;
+}
+
+img {
+    transform: rotate(10deg);
+}
+
+.logo-img {
+    margin-top: 50px;
+    width: 130px;
+    height: 130px;
+}
+
+.btn-block {
+    margin-top: 5%;
+    gap: 15px;
+}
+
+.btn-block .btn {
+    color: black;
+    width: 120px;
+    box-sizing: border-box;
+    background: transparent;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 20px !important;
+    transition: .2s;
+}
+.btn-block .btn:hover {
+    color: black;
+    border-color: black;
+    background: transparent;
+}
+
+
+
